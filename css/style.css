@@ -15,6 +15,25 @@
     height: 30%;
 }
 
+.main-title{
+    font-size: 38px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.info-article{
+    font-style: normal;
+    color: rgb(107, 104, 104);
+}
+
+a{
+    color: rgb(49, 179, 222);
+}
+
+.title-address{
+    margin-bottom: 20px;
+}
+
 .coloured-text{
     background-color: yellow;
 }
