@@ -5,14 +5,19 @@
 }
 
 .page{
-    background-image: url(img/pattern.png);
-    background-size: contain;
-
+    background-image: url(img/img/pattern.png);
+    height: 70px;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 #logo{
     width: 190px;
     height: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    padding-right: 120px;
 }
 
 .main-title{
@@ -38,14 +43,22 @@ a{
     background-color: yellow;
 }
 
+.list{
+   width: 100%;
+   box-sizing: border-box;
+}
+
 .voices{
-   text-align: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 180px;
+    margin-bottom: 20px;
 }
 
 .lorem-table{
     text-align: left;
     width: 100%
-    margin: 0;
+    
     padding: 0;
     border-spacing: 0;
 }
@@ -66,6 +79,7 @@ a{
 
 .suggestion{
     color: rgb(90, 88, 88);
+    font-size: 20px;
 }
 
 .desk,
@@ -74,9 +88,23 @@ a{
 }
 
 .desk{
-    background-image: url(img/img/monitor.jpg);
+    background-color: red;
+    width: 312px;
+    height: 208px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .screen{
-    background-image: url(img/img/graph.jpg);
+    background-color: red;
+    width: 312px;
+    height: 208px;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
 }
