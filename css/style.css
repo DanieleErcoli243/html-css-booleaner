@@ -51,4 +51,19 @@ a{
     background-color: rgb(146, 219, 242);
 }
 
+.suggestion{
+    color: rgb(90, 88, 88);
+}
 
+.desk,
+.screen{
+    color: white;
+}
+
+.desk{
+    background-image: url(img/img/monitor.jpg);
+}
+
+.screen{
+    background-image: url(img/img/graph.jpg);
+}
