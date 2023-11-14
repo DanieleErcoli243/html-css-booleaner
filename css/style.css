@@ -1,23 +1,22 @@
 .container{
     background-color: white;
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
 .page{
-    background-image: url(img/img/pattern.png);
-    height: 70px;
-    background-size: cover;
+    background-image: url(../img/img/pattern.png);
+    background-color: rgb(82, 159, 237);
+    height: 90px;
+    width: 1080px;
+    background-size: contain;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 #logo{
-    width: 190px;
-    height: 30%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    box-sizing: border-box;
-    padding-right: 120px;
+    
+    width: 20%;
 }
 
 .main-title{
@@ -89,7 +88,7 @@ a{
 }
 
 .desk{
-    background-color: red;
+    background-image: url(../img/img/monitor.jpg);
     width: 312px;
     height: 208px;
     margin-bottom: 10px;
@@ -100,7 +99,7 @@ a{
 }
 
 .screen{
-    background-color: red;
+    background-image: url(../img/img/graph.jpg);
     width: 312px;
     height: 208px;
     font-size: 24px;
