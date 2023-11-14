@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
     background-color: white;
     max-width: 1080px;
@@ -12,10 +18,11 @@
     background-size: contain;
     box-sizing: border-box;
     margin-bottom: 20px;
+    line-height: 90px;
 }
 
 #logo{
-    
+    vertical-align: middle;
     width: 20%;
 }
 
@@ -38,6 +45,13 @@ a{
     margin-bottom: 20px;
 }
 
+
+
+.text-article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .coloured-text{
     background-color: yellow;
 }
@@ -45,6 +59,8 @@ a{
 .list{
    width: 100%;
    box-sizing: border-box;
+   margin-bottom: 10px;
+   
 }
 
 .voices{
@@ -52,15 +68,14 @@ a{
     display: inline-block;
     padding-right: 180px;
     margin-bottom: 20px;
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
 .lorem-table{
     text-align: left;
-    width: 100%
-    
-    padding: 0;
-    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
 }
 
 .head-table{
@@ -74,7 +89,6 @@ a{
 
 .main-row{
     width: 25%;
-    
 }
 
 .suggestion{
